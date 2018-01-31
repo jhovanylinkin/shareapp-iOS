@@ -14,6 +14,7 @@
 		4752EC902021053F00A50DC0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4752EC8E2021053F00A50DC0 /* LaunchScreen.storyboard */; };
 		4752EC9B2021053F00A50DC0 /* socialShareTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4752EC9A2021053F00A50DC0 /* socialShareTests.swift */; };
 		4752ECA62021053F00A50DC0 /* socialShareUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4752ECA52021053F00A50DC0 /* socialShareUITests.swift */; };
+		47CC8D6520218BFF0096D081 /* TimeLineViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47CC8D6420218BFF0096D081 /* TimeLineViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		4752ECA12021053F00A50DC0 /* socialShareUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = socialShareUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4752ECA52021053F00A50DC0 /* socialShareUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = socialShareUITests.swift; sourceTree = "<group>"; };
 		4752ECA72021053F00A50DC0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		47CC8D6420218BFF0096D081 /* TimeLineViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeLineViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +105,7 @@
 				4752EC8C2021053F00A50DC0 /* Assets.xcassets */,
 				4752EC8E2021053F00A50DC0 /* LaunchScreen.storyboard */,
 				4752EC912021053F00A50DC0 /* Info.plist */,
+				47CC8D6420218BFF0096D081 /* TimeLineViewController.swift */,
 			);
 			path = socialShare;
 			sourceTree = "<group>";
@@ -261,6 +264,7 @@
 			files = (
 				4752EC882021053E00A50DC0 /* ViewController.swift in Sources */,
 				4752EC862021053E00A50DC0 /* AppDelegate.swift in Sources */,
+				47CC8D6520218BFF0096D081 /* TimeLineViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
