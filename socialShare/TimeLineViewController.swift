@@ -13,6 +13,7 @@ class TimeLineViewController: UIViewController, UIImagePickerControllerDelegate,
     @IBOutlet weak var textField: UITextField!
     @IBOutlet weak var textView: UITextView!
     @IBOutlet weak var viewPicture: UIImageView!
+    
     @IBAction func getMedia(_ sender: UIButton) {
         let imagePicker = UIImagePickerController()
         imagePicker.delegate = self
@@ -32,12 +33,31 @@ class TimeLineViewController: UIViewController, UIImagePickerControllerDelegate,
         self.present(activityController,animated: true, completion: nil)
     }
     override func viewDidLoad() {
-        super.viewDidLoad()
         // Do any additional setup after loading the view.
+        super.viewDidLoad()
+        let url = URL(string: "http://demosistemas.com/logo.png")
+        let loadimage = URLSession.shared.dataTask(with: url!){(data, resp, error) in
+        if (error != nil){
+            print("Error")
+        }else{
+            var documentsDirectory: String?
+            var paths = NSSearchPathForDirectoriesInDomains(.documentDirectory, .userDomainMask, true)
+            
+            if paths.count > 0{
+                documentsDirectory = paths[0]
+                let savePath = documentsDirectory! + "/logo.png"
+                FileManager.default.createFile(atPath: savePath, contents: data, attributes: nil)
+                DispatchQueue.main.async {
+                    self.viewPicture.image = UIImage(named: savePath)
+                    }
+                }
+            }
+        }
+        loadimage.resume()
         textField.text = "Some one Tex"
         textView.text = " Text test Text test Text test Text test Text test Text testText test Text test Text test Text test Text test Text test Text test Text test Text test Text test Text test Text test Text test Text test Text test Text test Text"
     }
-
+    
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
