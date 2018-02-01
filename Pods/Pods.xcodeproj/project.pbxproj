@@ -1,0 +1,883 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		01B0EFA384CC71C4CBB39F29AB3003F0 /* YTPlayer.html in Resources */ = {isa = PBXBuildFile; fileRef = E1B3D4637E04484F820A537C911A1254 /* YTPlayer.html */; };
+		0DDE53D150906DE32C241B0FA95906F5 /* Pods-socialShareUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 542FF62CFE057453928903D209F5DC15 /* Pods-socialShareUITests-dummy.m */; };
+		11CD52E544B119399415EDAAC81BFC38 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		1A20D63F5DFCA78F43EFDDE74C4E5823 /* Pods-socialShareTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 82A9B67F81DA4D76251C0DFDEAEA0C8E /* Pods-socialShareTests-dummy.m */; };
+		22A1C20BBDE3DD58B8A1B86EA87935F9 /* YouTubePlayer-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = AB8DBB99415A9B056807E8EF33D97571 /* YouTubePlayer-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		317064057D37CF27C6F3FF64DB9C8E76 /* Pods-socialShareTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = BDAC3B9EB3A0596BA4F7909280154AE3 /* Pods-socialShareTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		58AECC231902B0C03B38997E5C9C1387 /* YouTubePlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 315D52F498EC54D6A65A6C8FA3C6437E /* YouTubePlayer.swift */; };
+		5DB13135F41DEEAF7D1916219B32EC2B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		675C8DBEE81DCCC7C9BF47473C1F9F12 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		6A2A6E0B3B3528ACB5A94E3213CC2635 /* Pods-socialShare-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = FEBA6B316A03F691EDD9174075D38F93 /* Pods-socialShare-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7ADBDF40D54CBFF33D7FA310ECD0366A /* Pods-socialShare-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 03AD2333C2097F1ABF605B3468153F10 /* Pods-socialShare-dummy.m */; };
+		B38280743CAEB52C2CCD8EBBB2CFEF28 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		E1CB3FCAD9079EED441BA5758B767EB4 /* Pods-socialShareUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 969765E184AA03A79445A933D70D71CD /* Pods-socialShareUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F3245D3BD7E93BF9C75BD35A5C96E9E3 /* YouTubePlayer-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B5368F9A0C66B31B0B55777B15C7D1DC /* YouTubePlayer-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A824AAEB522F1D8E9B14D04A90C6802E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2C55C21B4B76001C87C019F2B569B4B8;
+			remoteInfo = YouTubePlayer;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		03AD2333C2097F1ABF605B3468153F10 /* Pods-socialShare-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-socialShare-dummy.m"; sourceTree = "<group>"; };
+		1184304444C599169965D96C45B56460 /* Pods-socialShareUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-socialShareUITests-frameworks.sh"; sourceTree = "<group>"; };
+		12950D5B421CBD74F89FEF80B8D6EE4C /* Pods-socialShareUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-socialShareUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		1BC1F24D93CD01F26E031AD92C69CCDD /* Pods-socialShare-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-socialShare-frameworks.sh"; sourceTree = "<group>"; };
+		2CC48817B92DA43DDCB9039A4D7DADBA /* Pods-socialShareTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-socialShareTests.release.xcconfig"; sourceTree = "<group>"; };
+		2EA133A450C4A73B7F5329526186A6A0 /* Pods-socialShareTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-socialShareTests.modulemap"; sourceTree = "<group>"; };
+		315D52F498EC54D6A65A6C8FA3C6437E /* YouTubePlayer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = YouTubePlayer.swift; path = YouTubePlayer/YouTubePlayer/YouTubePlayer.swift; sourceTree = "<group>"; };
+		4740CAE581737BC90878DF45ADDAF16C /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		495013F6B0DFA29EE5DE2ADA85259449 /* Pods-socialShareUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-socialShareUITests.release.xcconfig"; sourceTree = "<group>"; };
+		4A3F0B523BAA0DE65D9D9D2FFCE92ECC /* Pods-socialShareTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-socialShareTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		4E0E5F0D298E9C33A0E0AA3DE9DEF81C /* Pods-socialShareTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-socialShareTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		50A3F219F2085331BD897D98D37DB64C /* Pods-socialShareTests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-socialShareTests-frameworks.sh"; sourceTree = "<group>"; };
+		542FF62CFE057453928903D209F5DC15 /* Pods-socialShareUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-socialShareUITests-dummy.m"; sourceTree = "<group>"; };
+		579E4168B80E6B63F3AD283EB9D28942 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		60FCDF13B11CBAA8C8702B2BFE87E6C2 /* Pods-socialShareTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-socialShareTests.debug.xcconfig"; sourceTree = "<group>"; };
+		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		754936C65E4ABB66F60F2E473824E582 /* Pods-socialShareTests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-socialShareTests-resources.sh"; sourceTree = "<group>"; };
+		7BDD13294CABC8E89BEF317404A7E3D1 /* YouTubePlayer-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "YouTubePlayer-prefix.pch"; sourceTree = "<group>"; };
+		7DC0DC591F141AF689379125FF35F4EF /* YouTubePlayer.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = YouTubePlayer.framework; path = YouTubePlayer.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		82A9B67F81DA4D76251C0DFDEAEA0C8E /* Pods-socialShareTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-socialShareTests-dummy.m"; sourceTree = "<group>"; };
+		85E5DFA01D5DBCB8AE06E980302DE290 /* YouTubePlayer.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = YouTubePlayer.xcconfig; sourceTree = "<group>"; };
+		8A0CA06D3870B13067610FB5FBD0CD20 /* Pods-socialShare-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-socialShare-resources.sh"; sourceTree = "<group>"; };
+		8B232D8335A661B5F8949DB02BD3CED1 /* Pods_socialShare.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_socialShare.framework; path = "Pods-socialShare.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8EF99D1D606DF32CC501F299AE782969 /* Pods-socialShareUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-socialShareUITests.modulemap"; sourceTree = "<group>"; };
+		90DF36E264FC835C1C0E6B6D1F696330 /* Pods-socialShare.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-socialShare.modulemap"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		93D61C19A7C11405C492DA97B3E33996 /* Pods-socialShare.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-socialShare.debug.xcconfig"; sourceTree = "<group>"; };
+		969765E184AA03A79445A933D70D71CD /* Pods-socialShareUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-socialShareUITests-umbrella.h"; sourceTree = "<group>"; };
+		9ACFAD69848E0F86C1686B06EF0F04A9 /* Pods-socialShareUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-socialShareUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		AB8DBB99415A9B056807E8EF33D97571 /* YouTubePlayer-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "YouTubePlayer-umbrella.h"; sourceTree = "<group>"; };
+		ABFAAC68965A3908773646086D388D2E /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B5368F9A0C66B31B0B55777B15C7D1DC /* YouTubePlayer-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "YouTubePlayer-dummy.m"; sourceTree = "<group>"; };
+		BDAC3B9EB3A0596BA4F7909280154AE3 /* Pods-socialShareTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-socialShareTests-umbrella.h"; sourceTree = "<group>"; };
+		BDE4F597C9737270BE9147C55568A6B0 /* Pods-socialShareUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-socialShareUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		BE9A02F12050295BED1CB7B1DA4AC81C /* Pods-socialShare-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-socialShare-acknowledgements.plist"; sourceTree = "<group>"; };
+		D15A0B605D78E457422A51FABBE3CB7C /* Pods-socialShare.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-socialShare.release.xcconfig"; sourceTree = "<group>"; };
+		D8308E797D9BE530486EB05E2F14A837 /* Pods_socialShareTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_socialShareTests.framework; path = "Pods-socialShareTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D8E628CA21D2184BEBB7359E3D99BC0C /* YouTubePlayer.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = YouTubePlayer.modulemap; sourceTree = "<group>"; };
+		E1B3D4637E04484F820A537C911A1254 /* YTPlayer.html */ = {isa = PBXFileReference; includeInIndex = 1; name = YTPlayer.html; path = YouTubePlayer/YouTubePlayer/YTPlayer.html; sourceTree = "<group>"; };
+		E3BE679C6F873EE8D96C30DAE6AF6237 /* Pods_socialShareUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_socialShareUITests.framework; path = "Pods-socialShareUITests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F90A25E51679262A3F423FF14868B7F4 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FAAAE51CFBBF8EFF0036D89BA8909D6F /* Pods-socialShare-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-socialShare-acknowledgements.markdown"; sourceTree = "<group>"; };
+		FDF5DFCE6B3D5A687BA671030361E3E5 /* Pods-socialShareUITests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-socialShareUITests-resources.sh"; sourceTree = "<group>"; };
+		FEBA6B316A03F691EDD9174075D38F93 /* Pods-socialShare-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-socialShare-umbrella.h"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0EB693984C578CA320BA7B711EE73E80 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				675C8DBEE81DCCC7C9BF47473C1F9F12 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		178D7657CEB07C93A192B2FF122E2A3D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B38280743CAEB52C2CCD8EBBB2CFEF28 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4F95B161BE94C19D49DB7DD7D0896899 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5DB13135F41DEEAF7D1916219B32EC2B /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D823A6BFFE98556BC2664DAB0C62E01F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				11CD52E544B119399415EDAAC81BFC38 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		06926D3BCD25BED549969114525C7695 /* Pods-socialShareUITests */ = {
+			isa = PBXGroup;
+			children = (
+				4740CAE581737BC90878DF45ADDAF16C /* Info.plist */,
+				8EF99D1D606DF32CC501F299AE782969 /* Pods-socialShareUITests.modulemap */,
+				BDE4F597C9737270BE9147C55568A6B0 /* Pods-socialShareUITests-acknowledgements.markdown */,
+				9ACFAD69848E0F86C1686B06EF0F04A9 /* Pods-socialShareUITests-acknowledgements.plist */,
+				542FF62CFE057453928903D209F5DC15 /* Pods-socialShareUITests-dummy.m */,
+				1184304444C599169965D96C45B56460 /* Pods-socialShareUITests-frameworks.sh */,
+				FDF5DFCE6B3D5A687BA671030361E3E5 /* Pods-socialShareUITests-resources.sh */,
+				969765E184AA03A79445A933D70D71CD /* Pods-socialShareUITests-umbrella.h */,
+				12950D5B421CBD74F89FEF80B8D6EE4C /* Pods-socialShareUITests.debug.xcconfig */,
+				495013F6B0DFA29EE5DE2ADA85259449 /* Pods-socialShareUITests.release.xcconfig */,
+			);
+			name = "Pods-socialShareUITests";
+			path = "Target Support Files/Pods-socialShareUITests";
+			sourceTree = "<group>";
+		};
+		16634AC938605A5368191BF667C2000C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8B232D8335A661B5F8949DB02BD3CED1 /* Pods_socialShare.framework */,
+				D8308E797D9BE530486EB05E2F14A837 /* Pods_socialShareTests.framework */,
+				E3BE679C6F873EE8D96C30DAE6AF6237 /* Pods_socialShareUITests.framework */,
+				7DC0DC591F141AF689379125FF35F4EF /* YouTubePlayer.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		55B7B0E59F4B3A18DE81A3FF5491E087 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				E032F1640E639F9CFCA506523EE803B3 /* Pods-socialShare */,
+				757652C5EEF6CCABC8FD0669BD764E6A /* Pods-socialShareTests */,
+				06926D3BCD25BED549969114525C7695 /* Pods-socialShareUITests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		757652C5EEF6CCABC8FD0669BD764E6A /* Pods-socialShareTests */ = {
+			isa = PBXGroup;
+			children = (
+				ABFAAC68965A3908773646086D388D2E /* Info.plist */,
+				2EA133A450C4A73B7F5329526186A6A0 /* Pods-socialShareTests.modulemap */,
+				4E0E5F0D298E9C33A0E0AA3DE9DEF81C /* Pods-socialShareTests-acknowledgements.markdown */,
+				4A3F0B523BAA0DE65D9D9D2FFCE92ECC /* Pods-socialShareTests-acknowledgements.plist */,
+				82A9B67F81DA4D76251C0DFDEAEA0C8E /* Pods-socialShareTests-dummy.m */,
+				50A3F219F2085331BD897D98D37DB64C /* Pods-socialShareTests-frameworks.sh */,
+				754936C65E4ABB66F60F2E473824E582 /* Pods-socialShareTests-resources.sh */,
+				BDAC3B9EB3A0596BA4F7909280154AE3 /* Pods-socialShareTests-umbrella.h */,
+				60FCDF13B11CBAA8C8702B2BFE87E6C2 /* Pods-socialShareTests.debug.xcconfig */,
+				2CC48817B92DA43DDCB9039A4D7DADBA /* Pods-socialShareTests.release.xcconfig */,
+			);
+			name = "Pods-socialShareTests";
+			path = "Target Support Files/Pods-socialShareTests";
+			sourceTree = "<group>";
+		};
+		7D0171656D7F19EB5CB18A69637EAB10 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				579E4168B80E6B63F3AD283EB9D28942 /* Info.plist */,
+				D8E628CA21D2184BEBB7359E3D99BC0C /* YouTubePlayer.modulemap */,
+				85E5DFA01D5DBCB8AE06E980302DE290 /* YouTubePlayer.xcconfig */,
+				B5368F9A0C66B31B0B55777B15C7D1DC /* YouTubePlayer-dummy.m */,
+				7BDD13294CABC8E89BEF317404A7E3D1 /* YouTubePlayer-prefix.pch */,
+				AB8DBB99415A9B056807E8EF33D97571 /* YouTubePlayer-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/YouTubePlayer";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				96948329133DA20E20B65393602F6641 /* Pods */,
+				16634AC938605A5368191BF667C2000C /* Products */,
+				55B7B0E59F4B3A18DE81A3FF5491E087 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		84FE746C9C9EFDB6FEA7126EBB6F4658 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				E1B3D4637E04484F820A537C911A1254 /* YTPlayer.html */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		96948329133DA20E20B65393602F6641 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E3BC3586BC45424EA6178EE852DD964A /* YouTubePlayer */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D35AF013A5F0BAD4F32504907A52519E /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D35AF013A5F0BAD4F32504907A52519E /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		E032F1640E639F9CFCA506523EE803B3 /* Pods-socialShare */ = {
+			isa = PBXGroup;
+			children = (
+				F90A25E51679262A3F423FF14868B7F4 /* Info.plist */,
+				90DF36E264FC835C1C0E6B6D1F696330 /* Pods-socialShare.modulemap */,
+				FAAAE51CFBBF8EFF0036D89BA8909D6F /* Pods-socialShare-acknowledgements.markdown */,
+				BE9A02F12050295BED1CB7B1DA4AC81C /* Pods-socialShare-acknowledgements.plist */,
+				03AD2333C2097F1ABF605B3468153F10 /* Pods-socialShare-dummy.m */,
+				1BC1F24D93CD01F26E031AD92C69CCDD /* Pods-socialShare-frameworks.sh */,
+				8A0CA06D3870B13067610FB5FBD0CD20 /* Pods-socialShare-resources.sh */,
+				FEBA6B316A03F691EDD9174075D38F93 /* Pods-socialShare-umbrella.h */,
+				93D61C19A7C11405C492DA97B3E33996 /* Pods-socialShare.debug.xcconfig */,
+				D15A0B605D78E457422A51FABBE3CB7C /* Pods-socialShare.release.xcconfig */,
+			);
+			name = "Pods-socialShare";
+			path = "Target Support Files/Pods-socialShare";
+			sourceTree = "<group>";
+		};
+		E3BC3586BC45424EA6178EE852DD964A /* YouTubePlayer */ = {
+			isa = PBXGroup;
+			children = (
+				315D52F498EC54D6A65A6C8FA3C6437E /* YouTubePlayer.swift */,
+				84FE746C9C9EFDB6FEA7126EBB6F4658 /* Resources */,
+				7D0171656D7F19EB5CB18A69637EAB10 /* Support Files */,
+			);
+			name = YouTubePlayer;
+			path = YouTubePlayer;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		31A0AB87EDD7D868254B599E9B458EE1 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E1CB3FCAD9079EED441BA5758B767EB4 /* Pods-socialShareUITests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9D4340CD67972EAC8CE969F0117EAFF8 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				317064057D37CF27C6F3FF64DB9C8E76 /* Pods-socialShareTests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BB43F74FFDA43676C4A38C9C0AB74FC3 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6A2A6E0B3B3528ACB5A94E3213CC2635 /* Pods-socialShare-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C8ACE8160294C751054B8865F0F61D92 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				22A1C20BBDE3DD58B8A1B86EA87935F9 /* YouTubePlayer-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		2C55C21B4B76001C87C019F2B569B4B8 /* YouTubePlayer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B9E61121F63F03B6603E1ED1C1632C92 /* Build configuration list for PBXNativeTarget "YouTubePlayer" */;
+			buildPhases = (
+				562467E62DC3E0962EB40CA001E02C6A /* Sources */,
+				178D7657CEB07C93A192B2FF122E2A3D /* Frameworks */,
+				95CC75A830E0F0A9E9739376D8B6CAC7 /* Resources */,
+				C8ACE8160294C751054B8865F0F61D92 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = YouTubePlayer;
+			productName = YouTubePlayer;
+			productReference = 7DC0DC591F141AF689379125FF35F4EF /* YouTubePlayer.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		48CA0D7DB465E53FD6CA5551962E4030 /* Pods-socialShare */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B58734D18E6D8F1366D5ED24B2BC41BE /* Build configuration list for PBXNativeTarget "Pods-socialShare" */;
+			buildPhases = (
+				6E4D5F370750267F2A42802A455AE363 /* Sources */,
+				0EB693984C578CA320BA7B711EE73E80 /* Frameworks */,
+				BB43F74FFDA43676C4A38C9C0AB74FC3 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A99AE02475F1E9FA253805E1A283ED9F /* PBXTargetDependency */,
+			);
+			name = "Pods-socialShare";
+			productName = "Pods-socialShare";
+			productReference = 8B232D8335A661B5F8949DB02BD3CED1 /* Pods_socialShare.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		B01B7255FE6ABE1839B53F5E78820FEB /* Pods-socialShareTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 33F609F7DF78BCE5D0114B0E3491293E /* Build configuration list for PBXNativeTarget "Pods-socialShareTests" */;
+			buildPhases = (
+				33DE276E085228A03C532E835ECA335B /* Sources */,
+				4F95B161BE94C19D49DB7DD7D0896899 /* Frameworks */,
+				9D4340CD67972EAC8CE969F0117EAFF8 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-socialShareTests";
+			productName = "Pods-socialShareTests";
+			productReference = D8308E797D9BE530486EB05E2F14A837 /* Pods_socialShareTests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		BBAD386221F23F736914B4941B34D1C2 /* Pods-socialShareUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 80D07F7A61B0015A66A76995D72304ED /* Build configuration list for PBXNativeTarget "Pods-socialShareUITests" */;
+			buildPhases = (
+				01D86DF4AA6A6A942D5976688F151791 /* Sources */,
+				D823A6BFFE98556BC2664DAB0C62E01F /* Frameworks */,
+				31A0AB87EDD7D868254B599E9B458EE1 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-socialShareUITests";
+			productName = "Pods-socialShareUITests";
+			productReference = E3BE679C6F873EE8D96C30DAE6AF6237 /* Pods_socialShareUITests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 16634AC938605A5368191BF667C2000C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				48CA0D7DB465E53FD6CA5551962E4030 /* Pods-socialShare */,
+				B01B7255FE6ABE1839B53F5E78820FEB /* Pods-socialShareTests */,
+				BBAD386221F23F736914B4941B34D1C2 /* Pods-socialShareUITests */,
+				2C55C21B4B76001C87C019F2B569B4B8 /* YouTubePlayer */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		95CC75A830E0F0A9E9739376D8B6CAC7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				01B0EFA384CC71C4CBB39F29AB3003F0 /* YTPlayer.html in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		01D86DF4AA6A6A942D5976688F151791 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0DDE53D150906DE32C241B0FA95906F5 /* Pods-socialShareUITests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		33DE276E085228A03C532E835ECA335B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1A20D63F5DFCA78F43EFDDE74C4E5823 /* Pods-socialShareTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		562467E62DC3E0962EB40CA001E02C6A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F3245D3BD7E93BF9C75BD35A5C96E9E3 /* YouTubePlayer-dummy.m in Sources */,
+				58AECC231902B0C03B38997E5C9C1387 /* YouTubePlayer.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6E4D5F370750267F2A42802A455AE363 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7ADBDF40D54CBFF33D7FA310ECD0366A /* Pods-socialShare-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A99AE02475F1E9FA253805E1A283ED9F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = YouTubePlayer;
+			target = 2C55C21B4B76001C87C019F2B569B4B8 /* YouTubePlayer */;
+			targetProxy = A824AAEB522F1D8E9B14D04A90C6802E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		12C4B864767C59600DBFA238F1E2F8BC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		253B900E4E643D3D762AC71820696645 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D15A0B605D78E457422A51FABBE3CB7C /* Pods-socialShare.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-socialShare/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-socialShare/Pods-socialShare.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_socialShare;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		3FB5868775440C4C1978B8E689F93CB7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2CC48817B92DA43DDCB9039A4D7DADBA /* Pods-socialShareTests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-socialShareTests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-socialShareTests/Pods-socialShareTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_socialShareTests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		4B6A48C55EF465B58E9BCFDBA9F0C3CF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 93D61C19A7C11405C492DA97B3E33996 /* Pods-socialShare.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-socialShare/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-socialShare/Pods-socialShare.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_socialShare;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		59F0302F2371FCC6B73EF0A418D40734 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		722663CA73F1486350A29C6DECFBCBE8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 495013F6B0DFA29EE5DE2ADA85259449 /* Pods-socialShareUITests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-socialShareUITests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-socialShareUITests/Pods-socialShareUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_socialShareUITests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		77FD5D56F7FF37BCB43A6957620D9050 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 12950D5B421CBD74F89FEF80B8D6EE4C /* Pods-socialShareUITests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-socialShareUITests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-socialShareUITests/Pods-socialShareUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_socialShareUITests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		93220711E5C738499609A0C23087B3B6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 60FCDF13B11CBAA8C8702B2BFE87E6C2 /* Pods-socialShareTests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-socialShareTests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-socialShareTests/Pods-socialShareTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_socialShareTests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		B0D8E83B9533EFED2B9E7F6DAC29E960 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 85E5DFA01D5DBCB8AE06E980302DE290 /* YouTubePlayer.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/YouTubePlayer/YouTubePlayer-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/YouTubePlayer/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/YouTubePlayer/YouTubePlayer.modulemap";
+				PRODUCT_NAME = YouTubePlayer;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		D7414A63F20190205FA351E21B7B64E2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 85E5DFA01D5DBCB8AE06E980302DE290 /* YouTubePlayer.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/YouTubePlayer/YouTubePlayer-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/YouTubePlayer/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/YouTubePlayer/YouTubePlayer.modulemap";
+				PRODUCT_NAME = YouTubePlayer;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				59F0302F2371FCC6B73EF0A418D40734 /* Debug */,
+				12C4B864767C59600DBFA238F1E2F8BC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		33F609F7DF78BCE5D0114B0E3491293E /* Build configuration list for PBXNativeTarget "Pods-socialShareTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				93220711E5C738499609A0C23087B3B6 /* Debug */,
+				3FB5868775440C4C1978B8E689F93CB7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		80D07F7A61B0015A66A76995D72304ED /* Build configuration list for PBXNativeTarget "Pods-socialShareUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				77FD5D56F7FF37BCB43A6957620D9050 /* Debug */,
+				722663CA73F1486350A29C6DECFBCBE8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B58734D18E6D8F1366D5ED24B2BC41BE /* Build configuration list for PBXNativeTarget "Pods-socialShare" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4B6A48C55EF465B58E9BCFDBA9F0C3CF /* Debug */,
+				253B900E4E643D3D762AC71820696645 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B9E61121F63F03B6603E1ED1C1632C92 /* Build configuration list for PBXNativeTarget "YouTubePlayer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D7414A63F20190205FA351E21B7B64E2 /* Debug */,
+				B0D8E83B9533EFED2B9E7F6DAC29E960 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
