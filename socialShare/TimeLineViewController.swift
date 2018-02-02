@@ -10,7 +10,6 @@ import UIKit
 import Social
 
 class TimeLineViewController: UIViewController, UIImagePickerControllerDelegate, UINavigationControllerDelegate {
-    @IBOutlet weak var textField: UITextField!
     @IBOutlet weak var textView: UITextView!
     @IBOutlet weak var viewPicture: UIImageView!
     
@@ -28,34 +27,46 @@ class TimeLineViewController: UIViewController, UIImagePickerControllerDelegate,
     }
     
     @IBAction func share(_ sender: UIButton) {
-        let activityController = UIActivityViewController(activityItems: [textField.text!, textView.text!, viewPicture.image!], applicationActivities: nil)
+        let activityController = UIActivityViewController(activityItems: [textView.text!, viewPicture.image!], applicationActivities: nil)
         activityController.popoverPresentationController?.sourceView = sender
         self.present(activityController,animated: true, completion: nil)
     }
     override func viewDidLoad() {
         // Do any additional setup after loading the view.
         super.viewDidLoad()
-        let url = URL(string: "http://demosistemas.com/logo.png")
-        let loadimage = URLSession.shared.dataTask(with: url!){(data, resp, error) in
-        if (error != nil){
-            print("Error")
-        }else{
-            var documentsDirectory: String?
-            var paths = NSSearchPathForDirectoriesInDomains(.documentDirectory, .userDomainMask, true)
-            
-            if paths.count > 0{
-                documentsDirectory = paths[0]
-                let savePath = documentsDirectory! + "/logo.png"
-                FileManager.default.createFile(atPath: savePath, contents: data, attributes: nil)
-                DispatchQueue.main.async {
-                    self.viewPicture.image = UIImage(named: savePath)
+        let url = URL(string: "https://pbs.twimg.com/media/DU6TxzlVwAABDzu.jpg")
+        getImage(_url: url!)
+        textView.text = " Text test Text test Text test Text test Text test Text testText test Text test Text test Text test Text test Text test Text test Text test Text test Text test Text test Text test Text test Text test Text test Text test Text"
+    }
+    
+    func getImage(_url: URL){
+        let session = URLSession(configuration: .default)
+        //creating a dataTask
+        let getImageFromUrl = session.dataTask(with: _url) { (data, response, error) in
+            //if there is any error
+            if let e = error {
+                //displaying the message
+                print("Error Occurred: \(e)")
+            } else {
+                //in case of now error, checking wheather the response is nil or not
+                if (response as? HTTPURLResponse) != nil {
+                    //checking if the response contains an image
+                    if let imageData = data {
+                        DispatchQueue.main.async {
+                            //displaying the image #he code updates the ImageView within the background thread. Easy fix, update it in the main thread#
+                            self.viewPicture.image = UIImage(data: imageData)
+                        }
+                        
+                    } else {
+                        print("Image file is currupted")
                     }
+                } else {
+                    print("No response from server")
                 }
             }
         }
-        loadimage.resume()
-        textField.text = "Some one Tex"
-        textView.text = " Text test Text test Text test Text test Text test Text testText test Text test Text test Text test Text test Text test Text test Text test Text test Text test Text test Text test Text test Text test Text test Text test Text"
+        //starting the download task
+        getImageFromUrl.resume()
     }
     
     override func didReceiveMemoryWarning() {

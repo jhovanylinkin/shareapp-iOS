@@ -17,7 +17,6 @@
 		4752ECA62021053F00A50DC0 /* socialShareUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4752ECA52021053F00A50DC0 /* socialShareUITests.swift */; };
 		47CC8D6520218BFF0096D081 /* TimeLineViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47CC8D6420218BFF0096D081 /* TimeLineViewController.swift */; };
 		47CC8D6B202299E70096D081 /* TimeLineSecondVersionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47CC8D6A202299E70096D081 /* TimeLineSecondVersionViewController.swift */; };
-		47CC8D6C2022EE940096D081 /* YouTubePlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 47CC8D6D2022EE950096D081 /* YouTubePlayer.framework */; };
 		EC8F2605B181CA6DF24F94BE /* Pods_socialShare.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2D146FAE08BE25C9D32E4441 /* Pods_socialShare.framework */; };
 		F220956D0EBECF79C4B110CC /* Pods_socialShareUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4B1D1D6E6A6C0C5F4BEEA36F /* Pods_socialShareUITests.framework */; };
 /* End PBXBuildFile section */
@@ -72,7 +71,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				47CC8D6C2022EE940096D081 /* YouTubePlayer.framework in Frameworks */,
 				EC8F2605B181CA6DF24F94BE /* Pods_socialShare.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
