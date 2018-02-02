@@ -34,7 +34,7 @@ class TimeLineViewController: UIViewController, UIImagePickerControllerDelegate,
     override func viewDidLoad() {
         // Do any additional setup after loading the view.
         super.viewDidLoad()
-        let url = URL(string: "https://pbs.twimg.com/media/DU6TxzlVwAABDzu.jpg")
+        let url = URL(string: "http://demosistemas.com/logo.png")
         getImage(_url: url!)
         textView.text = " Text test Text test Text test Text test Text test Text testText test Text test Text test Text test Text test Text test Text test Text test Text test Text test Text test Text test Text test Text test Text test Text test Text"
     }
@@ -56,7 +56,6 @@ class TimeLineViewController: UIViewController, UIImagePickerControllerDelegate,
                             //displaying the image #he code updates the ImageView within the background thread. Easy fix, update it in the main thread#
                             self.viewPicture.image = UIImage(data: imageData)
                         }
-                        
                     } else {
                         print("Image file is currupted")
                     }
@@ -65,7 +64,7 @@ class TimeLineViewController: UIViewController, UIImagePickerControllerDelegate,
                 }
             }
         }
-        //starting the download task
+        //starting the download getImageFromUrl
         getImageFromUrl.resume()
     }
     

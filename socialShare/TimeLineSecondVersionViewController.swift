@@ -18,7 +18,7 @@ class TimeLineSecondVersionViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        videoView.loadVideoID( "ljbhiEuGKSI" )
+        videoView.loadVideoID( "Kp7eSUU9oy8" )
         textView.text = videoView.description
         // Do any additional setup after loading the view.
     }
